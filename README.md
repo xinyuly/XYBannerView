@@ -7,3 +7,4 @@
  3、自定义时钟，避免循环引用问题
  4、播放时间默认为3.0秒
 ```
+![image](https://github.com/xinyuly/XYBannerView/new/master/IMG_0033.png)
