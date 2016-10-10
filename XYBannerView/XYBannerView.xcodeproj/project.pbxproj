@@ -13,8 +13,6 @@
 		AE41B28B1DAB6BB1009A504B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE41B2891DAB6BB1009A504B /* Main.storyboard */; };
 		AE41B28D1DAB6BB1009A504B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE41B28C1DAB6BB1009A504B /* Assets.xcassets */; };
 		AE41B2901DAB6BB1009A504B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE41B28E1DAB6BB1009A504B /* LaunchScreen.storyboard */; };
-		AE41B29B1DAB6BB1009A504B /* XYBannerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE41B29A1DAB6BB1009A504B /* XYBannerViewTests.m */; };
-		AE41B2A61DAB6BB1009A504B /* XYBannerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE41B2A51DAB6BB1009A504B /* XYBannerViewUITests.m */; };
 		AE41B2D21DAB6BDA009A504B /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = AE41B2B61DAB6BDA009A504B /* NSData+ImageContentType.m */; };
 		AE41B2D31DAB6BDA009A504B /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AE41B2B81DAB6BDA009A504B /* SDImageCache.m */; };
 		AE41B2D41DAB6BDA009A504B /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = AE41B2BA1DAB6BDA009A504B /* SDWebImageCompat.m */; };
@@ -63,11 +61,7 @@
 		AE41B28F1DAB6BB1009A504B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE41B2911DAB6BB1009A504B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE41B2961DAB6BB1009A504B /* XYBannerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYBannerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE41B29A1DAB6BB1009A504B /* XYBannerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYBannerViewTests.m; sourceTree = "<group>"; };
-		AE41B29C1DAB6BB1009A504B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE41B2A11DAB6BB1009A504B /* XYBannerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYBannerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE41B2A51DAB6BB1009A504B /* XYBannerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYBannerViewUITests.m; sourceTree = "<group>"; };
-		AE41B2A71DAB6BB1009A504B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE41B2B51DAB6BDA009A504B /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		AE41B2B61DAB6BDA009A504B /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		AE41B2B71DAB6BDA009A504B /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
@@ -134,8 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				AE41B27F1DAB6BB1009A504B /* XYBannerView */,
-				AE41B2991DAB6BB1009A504B /* XYBannerViewTests */,
-				AE41B2A41DAB6BB1009A504B /* XYBannerViewUITests */,
 				AE41B27E1DAB6BB1009A504B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -174,24 +166,6 @@
 				AE41B2811DAB6BB1009A504B /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AE41B2991DAB6BB1009A504B /* XYBannerViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				AE41B29A1DAB6BB1009A504B /* XYBannerViewTests.m */,
-				AE41B29C1DAB6BB1009A504B /* Info.plist */,
-			);
-			path = XYBannerViewTests;
-			sourceTree = "<group>";
-		};
-		AE41B2A41DAB6BB1009A504B /* XYBannerViewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AE41B2A51DAB6BB1009A504B /* XYBannerViewUITests.m */,
-				AE41B2A71DAB6BB1009A504B /* Info.plist */,
-			);
-			path = XYBannerViewUITests;
 			sourceTree = "<group>";
 		};
 		AE41B2B31DAB6BDA009A504B /* SDWebImage */ = {
@@ -408,7 +382,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE41B29B1DAB6BB1009A504B /* XYBannerViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +389,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE41B2A61DAB6BB1009A504B /* XYBannerViewUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,6 +598,7 @@
 				AE41B2AC1DAB6BB1009A504B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE41B2AD1DAB6BB1009A504B /* Build configuration list for PBXNativeTarget "XYBannerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -634,6 +607,7 @@
 				AE41B2AF1DAB6BB1009A504B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE41B2B01DAB6BB1009A504B /* Build configuration list for PBXNativeTarget "XYBannerViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -642,6 +616,7 @@
 				AE41B2B21DAB6BB1009A504B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
