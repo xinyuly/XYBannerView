@@ -6,7 +6,9 @@
  2、如果是网络图片，使用SDWebImage框架
  3、自定义时钟，避免循环引用问题
  4、播放时间默认为3.0秒
+ 5、包含collectionView和scrollView两种实现方案
 ```
 
 效果如下：
+
 ![image](https://github.com/xinyuly/XYBannerView/blob/master/an.gif)  
