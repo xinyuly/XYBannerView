@@ -30,6 +30,7 @@
 		AE41B2F11DAB7060009A504B /* XYBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE41B2EC1DAB7060009A504B /* XYBannerView.m */; };
 		AE41B2F21DAB7060009A504B /* XYBannerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE41B2EE1DAB7060009A504B /* XYBannerViewCell.m */; };
 		AE41B2F31DAB7060009A504B /* XYWeakTimerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = AE41B2F01DAB7060009A504B /* XYWeakTimerTarget.m */; };
+		B7E5F2191DB9C4850007F4E2 /* XYBannerView2.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E5F2181DB9C4850007F4E2 /* XYBannerView2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,8 @@
 		AE41B2EE1DAB7060009A504B /* XYBannerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYBannerViewCell.m; sourceTree = "<group>"; };
 		AE41B2EF1DAB7060009A504B /* XYWeakTimerTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYWeakTimerTarget.h; sourceTree = "<group>"; };
 		AE41B2F01DAB7060009A504B /* XYWeakTimerTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYWeakTimerTarget.m; sourceTree = "<group>"; };
+		B7E5F2171DB9C4850007F4E2 /* XYBannerView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYBannerView2.h; sourceTree = "<group>"; };
+		B7E5F2181DB9C4850007F4E2 /* XYBannerView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYBannerView2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,7 @@
 		AE41B27F1DAB6BB1009A504B /* XYBannerView */ = {
 			isa = PBXGroup;
 			children = (
+				B7E5F2161DB9C42B0007F4E2 /* XYBannerView2 */,
 				AE41B2EA1DAB7060009A504B /* XYBannerView */,
 				AE41B2B31DAB6BDA009A504B /* SDWebImage */,
 				AE41B2831DAB6BB1009A504B /* AppDelegate.h */,
@@ -223,6 +227,15 @@
 				AE41B2F01DAB7060009A504B /* XYWeakTimerTarget.m */,
 			);
 			path = XYBannerView;
+			sourceTree = "<group>";
+		};
+		B7E5F2161DB9C42B0007F4E2 /* XYBannerView2 */ = {
+			isa = PBXGroup;
+			children = (
+				B7E5F2171DB9C4850007F4E2 /* XYBannerView2.h */,
+				B7E5F2181DB9C4850007F4E2 /* XYBannerView2.m */,
+			);
+			path = XYBannerView2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE41B2F31DAB7060009A504B /* XYWeakTimerTarget.m in Sources */,
+				B7E5F2191DB9C4850007F4E2 /* XYBannerView2.m in Sources */,
 				AE41B2DF1DAB6BDA009A504B /* UIView+WebCacheOperation.m in Sources */,
 				AE41B2F11DAB7060009A504B /* XYBannerView.m in Sources */,
 				AE41B2DB1DAB6BDA009A504B /* UIImage+GIF.m in Sources */,

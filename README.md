@@ -9,4 +9,4 @@
 ```
 
 效果如下：
-![image](https://github.com/xinyuly/XYBannerView/blob/master/IMG_0033.PNG)  
+![image](https://github.com/xinyuly/XYBannerView/blob/master/an.gif)  
