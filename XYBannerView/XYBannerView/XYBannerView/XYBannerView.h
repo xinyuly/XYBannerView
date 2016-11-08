@@ -13,9 +13,11 @@
 @end
 
 @interface XYBannerView : UIView
+
 @property (nonatomic, assign) NSTimeInterval timeInterval;//默认为3.0秒
 @property (nonatomic, assign) BOOL pageControlHidden;
 @property (nonatomic, strong) NSArray<NSString *> *imageList;
 @property (nonatomic, copy)   void (^imageSelectedCallBack)(NSInteger index);
 @property (nonatomic, weak)   id<XYBannerViewDelegate>delegate;
+
 @end

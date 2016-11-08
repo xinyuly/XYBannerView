@@ -2,8 +2,8 @@
 //  XYBannerView2.m
 //  XYBannerView
 //
-//  Created by lixinyu on 16/10/21.
-//  Copyright © 2016年 xy.com. All rights reserved.
+//  Created by lixinyu on 15/10/21.
+//  Copyright © 2015年 xy.com. All rights reserved.
 //
 
 #import "XYBannerView2.h"
@@ -133,14 +133,14 @@
     return tapGesure;
 }
 
--(void)startTimer{
+- (void)startTimer{
     NSTimeInterval time = self.timeInterval ? self.timeInterval : 3.0;
     NSTimer *timer=[NSTimer scheduledTimerWithTimeInterval:time target:self selector:@selector(nextImg) userInfo:nil repeats:YES];
     self.timer = timer;
     [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSRunLoopCommonModes];
 }
 
--(void)nextImg{
+- (void)nextImg{
     CGFloat moveL = self.scrollView.contentOffset.x;
     CGFloat SW = self.scrollView.bounds.size.width;
     int num = (moveL+SW*0.5)/SW;
@@ -152,14 +152,14 @@
     }
 }
 #pragma mark -scrollView delegate
--(void)scrollViewDidScroll:(UIScrollView *)scrollView{
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
     CGFloat moveL = self.scrollView.contentOffset.x;
     CGFloat SW = self.scrollView.bounds.size.width;
     int num = (moveL+SW*0.5)/SW;
     self.pageControl.currentPage = num-1;
 }
 
--(void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView{
+- (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView{
     CGFloat moveL = self.scrollView.contentOffset.x;
     CGFloat SW = self.scrollView.bounds.size.width;
     int num = (moveL+SW*0.5)/SW;
@@ -174,7 +174,7 @@
     [self.timer invalidate];
 }
 
--(void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
     [self startTimer];
     [self scrollViewDidEndScrollingAnimation:scrollView];
 }

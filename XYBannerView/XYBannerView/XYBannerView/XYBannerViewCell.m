@@ -28,14 +28,19 @@
     return self;
 }
 
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    self.imgView.frame = self.contentView.bounds;
+}
+
 - (void)setImageUrl:(NSString *)imageUrl {
     _imageUrl = imageUrl;
     [self.imgView sd_setImageWithURL:[NSURL URLWithString:imageUrl]];
 }
 
-- (void)layoutSubviews {
-    [super layoutSubviews];
-    self.imgView.frame = self.contentView.bounds;
+- (void)setDefaultImg:(NSString *)defaultImg {
+    _defaultImg = defaultImg;
+    [self.imgView sd_setImageWithURL:[NSURL URLWithString:self.imageUrl] placeholderImage:[UIImage imageNamed:defaultImg]];
 }
 
 @end

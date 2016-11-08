@@ -12,4 +12,5 @@
 
 @property (nonatomic, copy) NSString *imageUrl;  //图片url地址
 @property (nonatomic, copy) NSString *defaultImg;
+
 @end
